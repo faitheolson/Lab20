@@ -1,0 +1,42 @@
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\ApplicationInsights.config
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Lab 20.dll.config
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Lab 20.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Lab 20.pdb
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Antlr3.Runtime.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.Web.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.WindowsServer.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.ApplicationInsights.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Newtonsoft.Json.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.Helpers.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.Mvc.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.Optimization.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.Razor.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.WebPages.Deployment.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.WebPages.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.WebPages.Razor.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\WebGrease.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.Helpers.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.Mvc.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.Optimization.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.Razor.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.WebPages.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.WebPages.Deployment.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\System.Web.WebPages.Razor.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Antlr3.Runtime.pdb
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Newtonsoft.Json.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.ApplicationInsights.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.WindowsServer.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\bin\Microsoft.AI.Web.xml
+c:\users\ts-1\source\repos\Lab 20\Lab 20\obj\Debug\Lab 20.csprojResolveAssemblyReference.cache
+c:\users\ts-1\source\repos\Lab 20\Lab 20\obj\Debug\Lab 20.csproj.CoreCompileInputs.cache
+c:\users\ts-1\source\repos\Lab 20\Lab 20\obj\Debug\Lab 20.dll
+c:\users\ts-1\source\repos\Lab 20\Lab 20\obj\Debug\Lab 20.pdb

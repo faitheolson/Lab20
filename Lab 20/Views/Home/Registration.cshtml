@@ -1,0 +1,62 @@
+﻿<script>
+    function validateNameInput() {
+        var x = document.forms["UserInformation"]["FirstName"].value;
+        var y = document.forms["UserInformation"]["LastName"].value;
+        if (!isNaN(x)|| !isNaN(y)) {
+            alert("Name must be filled out properly!");
+            return false;
+        }
+    }
+</script>
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>User Registration</h2>
+
+<form name= "UserInformation" onsubmit="return validateNameInput()" action="/Home/UserInformation">
+    <label>First Name:</label><br />
+    <input type="text" name="FirstName" required/>
+    <br />
+    <br />
+
+    <label>Last Name:</label><br />
+    <input type="text" name="LastName" required/>
+    <br />
+    <br />
+
+    <label>Address:</label><br />
+    <input type="text" name="Address" required/>
+    <br />
+    <br />
+
+    <label>City:</label><br />
+    <input type="text" name="City" required/>
+    <br />
+    <br />
+
+    <label>State:</label><br />
+    <input type="text" name="State" required />
+    <br />
+    <br />
+
+    <label>Email:</label><br />
+    <input type="email" name="Email" required/>
+    <br />
+    <br />
+
+    <label>Zip:</label><br />
+    <input type="text" name="Zip" required/>
+    <br />
+    <br />
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+    <br />
+    <br />
+
+    <input type="submit" name="Create User Account" />
+
+
+</form>
+
