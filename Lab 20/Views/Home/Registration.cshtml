@@ -14,24 +14,29 @@
 
 <h2>User Registration</h2>
 
-<form name= "UserInformation" onsubmit="return validateNameInput()" action="/Home/UserInformation">
+<form name="UserInformation" onsubmit="return validateNameInput()" action="/Home/UserInformation" method="post">
     <label>First Name:</label><br />
-    <input type="text" name="FirstName" required/>
+    <input type="text" name="FirstName" required />
     <br />
     <br />
 
     <label>Last Name:</label><br />
-    <input type="text" name="LastName" required/>
+    <input type="text" name="LastName" required />
+    <br />
+    <br />
+
+    <label>Password:</label><br />
+    <input type="password" name="Password" required />
     <br />
     <br />
 
     <label>Address:</label><br />
-    <input type="text" name="Address" required/>
+    <input type="text" name="Address" required />
     <br />
     <br />
 
     <label>City:</label><br />
-    <input type="text" name="City" required/>
+    <input type="text" name="City" required />
     <br />
     <br />
 
@@ -41,12 +46,12 @@
     <br />
 
     <label>Email:</label><br />
-    <input type="email" name="Email" required/>
+    <input type="email" name="Email" required />
     <br />
     <br />
 
     <label>Zip:</label><br />
-    <input type="text" name="Zip" required/>
+    <input type="text" name="Zip" required />
     <br />
     <br />
     <input type="radio" name="gender" value="male" checked> Male<br>

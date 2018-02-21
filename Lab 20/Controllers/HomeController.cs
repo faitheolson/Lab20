@@ -31,7 +31,7 @@ namespace Lab_20.Controllers
         {
             return View();
         }
-        public ActionResult UserInformation(string FirstName, string LastName, string Address, string City, string State, string Zip, string Email, string gender)
+        public ActionResult UserInformation(string FirstName, string LastName,string Password, string Address, string City, string State, string Zip, string Email, string gender)
         {
             ViewBag.Name = $"{FirstName} {LastName}";
             ViewBag.Address = Address;
@@ -40,6 +40,7 @@ namespace Lab_20.Controllers
             ViewBag.Zip = Zip;
             ViewBag.Email = Email;
             ViewBag.Gender = gender;
+            string UserPassword = Password;
 
             return View("DisplayUserInformation");
         }
