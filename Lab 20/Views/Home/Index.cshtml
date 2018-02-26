@@ -2,14 +2,27 @@
     ViewBag.Title = "Home Page";
 
 }
-<br />
+@*<style>
+    body {
+        background-image: url(/Content/the-coffee-shop-lunchbox.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        background-size:100%
+    }*@
 
-<div class="coffee-cup">
-    <img src="~/Content/Coffee-Cup.jpg" class="img-circle" alt="Coffee" style="width:30%">
-</div>
-<h1>Welcome to the Grand Circus Coffee Shop Web Application!</h1>
-<br />
-<form action="/Home/Registration" method="get">
-    <input type="submit" value="REGISTER" />
-</form>
+</style>
+<body>
+
+    <br />
+    <div class="coffee-cup">
+        <img src="~/Content/Coffee-Cup.jpg" class="img-circle" alt="Coffee" style="width:30%">
+    </div>
+    <h1>Welcome to the Grand Circus Coffee Shop Web Application!</h1>
+    <br />
+    <form action="/Home/Registration" method="get">
+        <input type="submit" value="REGISTER" />
+    </form>
+</body>
+
 

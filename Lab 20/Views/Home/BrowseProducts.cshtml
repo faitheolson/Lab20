@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "BrowseProducts";
+}
+
+<h2>Browse Products:</h2>
+<table class="table">
+    <tr>
+        <th>Item Name</th>
+        <th>Item Description</th>
+        <th>Item Quantity</th>
+        <th>Item Price</th>
+
+    </tr>
+    @foreach (var item in ViewBag.ItemData)
+    {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Description
+            </td>
+            <td>
+                @item.Quantity
+            </td>
+            <td>
+                @item.Price
+            </td>
+
+            <td>
+                <a href="/Home/AddItemToCart?ItemID=@item.ItemID">ADD Item to Cart</a>
+            </td>
+        </tr>
+
+
+     }
+</table>
+

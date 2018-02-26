@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Lab_20.Models;
 
 namespace Lab_20.Controllers
 {
@@ -44,5 +45,12 @@ namespace Lab_20.Controllers
 
             return View("DisplayUserInformation");
         }
+        public ActionResult BrowseProducts()
+        {
+            CoffeeShopEntities Items = new CoffeeShopEntities();
+            ViewBag.ItemData = Items.Items.ToList();
+            return View("BrowseProducts");
+        }
+ 
     }
 }
